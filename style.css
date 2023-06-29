@@ -1,0 +1,100 @@
+
+/* Intro styling*/
+.intro {
+  display:flex;
+  justify-content:center;
+  text-align: center;
+  flex-direction:column;
+  color:aliceblue;
+  font-family: 'Montserrat Alternates', sans-serif;
+
+}
+
+
+.intro2 {
+  
+  background-color: #70877F;
+  border-radius: 5px 5px 0 0;
+  border-bottom: groove 5px #B5C9C3;
+  
+  
+
+}
+
+body {
+  background-color:#4A4E69;
+}
+
+
+
+
+
+
+
+
+/*this is the styling for the cards section*/
+
+.CardList {
+  display:flex;
+  justify-content:space-around;
+  background-color: #70877F;
+  height: 100%;
+  flex-wrap:wrap;
+
+
+}
+
+.card {
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition:all .2s ease-in-out;
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    max-width: 300px;
+    min-width: 250px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:#9A8C98;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .card:hover {
+    transform: scale(1.4);
+    margin: 0 auto; 
+
+  }
+  
+  /* Add rounded corners to the top left and the top right corner of the image */
+img {
+    display:flex;
+    border-radius: 5px 5px 0 0;
+    flex-wrap: wrap;
+    height: 90%;
+    width: 100%;
+    border-radius: 20px;
+  }
+
+/* Add some padding inside the card container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+    
+    
+    
+  }
+.container h4{
+    margin: 5px;
+    font-family: 'Long Cang', cursive;
+    font-size:30px;
+}
+.container p {
+    margin: 5px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    
+}
